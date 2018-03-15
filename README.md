@@ -8,7 +8,7 @@ to build use
 to run use
 `java -jar target/demo-0.0.1-SNAPSHOT.jar`
 
-this we application supports 2 APIs
+this we application supports 2 APIs (find post man collection `BlockChain.postman_collection.json`)
 
 unspentTransactionInfo :
 `localhost:8080/rest/address/1Pa6zyqnhL6LDJtrkCMi9XmEDNHJ23ffE2`
