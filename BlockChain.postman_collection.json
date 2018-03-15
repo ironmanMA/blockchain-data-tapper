@@ -1,0 +1,76 @@
+{
+	"info": {
+		"name": "BlockChain",
+		"_postman_id": "99f5415e-3100-df1d-beb5-aa3de217c517",
+		"description": "unSpent Stuff",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "healthcheck",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/rest/health",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"rest",
+						"health"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "unspentTransactionInfo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/rest/address/1Pa6zyqnhL6LDJtrkCMi9XmEDNHJ23ffE2",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"rest",
+						"address",
+						"1Pa6zyqnhL6LDJtrkCMi9XmEDNHJ23ffE2"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "unspentTransactionBatchInfo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "localhost:8080/rest/batch/address/1Pa6zyqnhL6LDJtrkCMi9XmEDNHJ23ffE2,1Pa6zyqnhL6LDJtrkCMi9XmEDNHJ23ffEr,1A8JiWcwvpY7tAopUkSnGuEYHmzGYfZPiq,1231234234",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"rest",
+						"batch",
+						"address",
+						"1Pa6zyqnhL6LDJtrkCMi9XmEDNHJ23ffE2,1Pa6zyqnhL6LDJtrkCMi9XmEDNHJ23ffEr,1A8JiWcwvpY7tAopUkSnGuEYHmzGYfZPiq,1231234234"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
